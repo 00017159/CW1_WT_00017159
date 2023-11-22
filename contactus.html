@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contactus.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./hamburger.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container navbar">
+        <a href="#" class="nav-branding"
+          ><img src="assets/logo.png" alt=""
+        /></a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="allproducts.html" class="nav-link">All products</a>
+          </li>
+          <li class="nav-item">
+            <a href="sustainable.html" class="nav-link">Sustainable</a>
+          </li>
+          <li class="nav-item">
+            <a href="service.html" class="nav-link">Service</a>
+          </li>
+          <li class="nav-item">
+            <a href="contactus.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutus.html" class="nav-link">About us</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="contactUs">
+      <div class="title">
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="box">
+        <!--Form-->
+        <div class="contact form">
+          <h3>Send a message</h3>
+          <form>
+            <div class="formBox">
+              <div class="row50">
+                <div class="inputBox">
+                  <span>First Name</span>
+
+                  <input
+                    type="text"
+                    name="first-name"
+                    placeholder="First Name"
+                  />
+                  <p></p>
+                </div>
+                <div class="inputBox">
+                  <span>Last Name</span>
+                  <input type="text" name="last-name" placeholder="Last Name" />
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="row50">
+                <div class="inputBox">
+                  <span>Email</span>
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="email@gmail.com"
+                  />
+                  <p></p>
+                </div>
+                <div class="inputBox">
+                  <span>Mobile</span>
+                  <input
+                    type="text"
+                    name="mobile"
+                    placeholder="+12 345 67 89"
+                  />
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="row100">
+                <div class="inputBox">
+                  <span>Message</span>
+                  <textarea placeholder="Write your message"> </textarea>
+                  <p></p>
+                </div>
+              </div>
+
+              <div class="row100">
+                <div class="inputBox">
+                  <input type="submit" name="send" value="Send" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!--info Box-->
+        <div class="contact info">
+          <h3>Contact Info</h3>
+          <div class="infoBox">
+            <div>
+              <span><ion-icon name="location"></ion-icon></span>
+              <p>
+                Tashkent, Yashnabod district,st.Mahtumkuli,2 M<br />Uzbekistan
+              </p>
+            </div>
+            <div>
+              <span><ion-icon name="mail"></ion-icon></span>
+              <a href="mailto:info@artelelectronics.com"
+                >info@artelelectronics.com</a
+              >
+            </div>
+            <div>
+              <span><ion-icon name="call"></ion-icon></span>
+              <p>+998 78 148-88-88</p>
+            </div>
+            <ul class="sci">
+              <li>
+                <a href="https://www.facebook.com/artelelectronics"
+                  ><ion-icon name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/artel_official/"
+                  ><ion-icon name="logo-instagram"></ion-icon
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--Map-->
+        <div class="contact map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d95842.1501838524!2d69.2083735804879!3d41.350893213503774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d41.3530838!2d69.2916293!4m5!1s0x38aef3cdf23c8055%3A0xa06a2e13089bae39!2s9%20Chinobod%20Street%2C%20Tashkent!3m2!1d41.350881799999996!2d69.2907677!5e0!3m2!1sen!2s!4v1700030584206!5m2!1sen!2s"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="responsive.js"></script>
+  </body>
+</html>

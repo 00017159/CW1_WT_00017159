@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+nav {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul a:hover {
+  border-bottom: 3px solid lightgreen;
+  padding-bottom: 5px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+.container2 {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #274c5b;
+  font-size: 18px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  transition: 0.4s;
+  padding: 0px 3px 3px;
+}
+.companylogo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.artel {
+  width: 1100px;
+  height: 360px;
+}
+.company {
+  background-image: url("assets/main.jpg");
+  width: 100%;
+  /* margin-top: 74px; */
+  height: 438px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  background-color: gray;
+}
+li {
+  list-style: none;
+}
+.new-products-cards {
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.product-images {
+  width: 234px;
+  height: 241px;
+}
+.new-products-card h4 {
+  padding-top: 8px;
+}
+.new-products-card p {
+  padding-top: 10px;
+  max-width: 240px;
+}
+.popular-product-images {
+  width: 140px;
+  margin-top: 45px;
+  margin-left: 5px;
+  height: 140px;
+}
+.image-div {
+  width: 150px;
+  height: 190px;
+}
+.popular-products-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.popular-products-card h6 {
+  font-size: 15px;
+}
+.subscribe {
+  background-color: #68bb46;
+}
+.subscribe-promote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subscribe-promote p,
+.subscribe-promote span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.subscribe-promote input {
+  border: none;
+  width: 200px;
+  padding: 12px 15px;
+  border-radius: 12px;
+  outline: none;
+}
+.subscribe-promote button {
+  width: 200px;
+  padding: 12px 15px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+.subscribe-promote button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.brief-info {
+  background-color: #68bb46;
+}
+.info-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.info-card p {
+  color: white;
+}
+.info-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.d20 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-bottom {
+  background-color: #21242f;
+}
+.footer-bot-content p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-bot-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.footer-top h2 {
+  color: white;
+}
+@media (max-width: 1045px) {
+  .new-products-cards {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+@media (max-width: 1100px) {
+  .popular-products-cards {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
+@media (max-width: 1000px) {
+  .info-cards {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .info-cards p {
+    max-width: 200px;
+  }
+}
+@media (max-width: 1100px) {
+  .subscribe-promote {
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: baseline;
+    justify-content: baseline;
+  }
+}
+@media (max-width: 550px) {
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .company {
+    display: none;
+  }
+  .new-products {
+    padding-top: 79px;
+  }
+}
+@media (max-width: 450px) {
+  .d20 {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .d20:first-child {
+    flex-wrap: wrap;
+  }
+}

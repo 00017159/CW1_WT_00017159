@@ -1,0 +1,31 @@
+.aboutus-images {
+  width: 480px;
+  height: 240px;
+}
+.about-hero {
+  margin-top: 75px;
+}
+.aboutus-image {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.full-info {
+  padding-bottom: 40px;
+}
+.full-info h1 {
+  max-width: 440px;
+}
+.full-info p {
+  max-width: 440px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.d1 {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1050px) {
+  .d1 {
+    flex-direction: column;
+  }
+}

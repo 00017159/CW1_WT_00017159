@@ -1,0 +1,171 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 0 20px;
+} */
+.server-image {
+  background-image: url("assets/servis.png");
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.service p {
+  font-size: 25px;
+  font-weight: 600;
+  transition: 0.4s;
+  padding-bottom: 5px;
+}
+.service a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  transition: 0.4s;
+  padding-bottom: 5px;
+  color: black;
+}
+.service p:hover {
+  border-bottom: 3px solid lightgreen;
+}
+.service a:hover {
+  border-bottom: 3px solid lightgreen;
+}
+.theme {
+  margin-top: 90px;
+}
+.service-info {
+  max-width: 700px;
+  font-size: 25px;
+  padding-top: 30px;
+}
+.warranty {
+  margin-top: 90px;
+}
+.warranty-info {
+  max-width: 700px;
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.installers {
+  margin-top: 25px;
+  border-radius: 25px;
+  padding: 20px 40px;
+  background-color: rgb(3, 231, 3);
+  border: none;
+  outline: none;
+  color: white;
+}
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.bottom-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #fff;
+  background-color: antiquewhite;
+}
+.bottom-item-1 {
+  min-height: 300px;
+}
+.bottom-item-2 {
+  min-height: 300px;
+}
+.bottom-item-3 {
+  min-height: 300px;
+}
+.bottom-item-4 {
+  min-height: 300px;
+}
+.service-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-infor {
+  background-color: #f0f4f8;
+  padding-top: 70px;
+  margin-top: 70px;
+  padding-bottom: 70px;
+}
+.service-card {
+  background: #fff;
+  padding: 50px 25px;
+  width: 222px;
+}
+.service-card h4 {
+  padding-top: 20px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 0.03px;
+  letter-spacing: 0.01px;
+}
+.subscribe {
+  background-color: #68bb46;
+}
+.subscribe-promote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.service-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.service-card a {
+  font-weight: 700;
+  color: lightgreen;
+  border-bottom: 3px solid lightgreen;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.service-card p {
+  padding-bottom: 15px;
+}
+.subscribe-promote p,
+.subscribe-promote span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.subscribe-promote input {
+  border: none;
+  width: 200px;
+  padding: 12px 15px;
+  border-radius: 12px;
+  outline: none;
+}
+.subscribe-promote button {
+  width: 200px;
+  padding: 12px 15px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+.subscribe-promote button:hover {
+  background-color: transparent;
+  color: #fff;
+}
+@media (max-width: 990px) {
+  .service-cards {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
