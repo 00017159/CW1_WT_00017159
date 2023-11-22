@@ -13,5 +13,5 @@ they can see it. The last page "About us" gives info about company and achievmen
 years. After finishing all the pages I validated the html and css files through https://validator.w3.org & https://jigsaw.w3.org/cssvalidator in order to find errors and fix them. By the help of the
 JavaScript I also added some animations. The final step was hosting a website through Netlify or Github pages and I also host the website that I created.
 To conclude at the beginning of the course I had a only knowledge of HTML CSS but by doing the assessment I gained knowledge about animations and JavaScript.
-Here is the link to the website:
-Here is the link to the github profile:
+Here is the link to the website: https://artel00017159.netlify.app/
+Here is the link to the github profile: https://github.com/00017159/CW1_WT_00017159
