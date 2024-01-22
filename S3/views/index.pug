@@ -1,0 +1,26 @@
+-var hobbies = ['coding', 'sleeping', 'playing football']
+
+doctype html 
+html 
+    head  
+        title #{name}'s personal blog page 
+        body 
+            hedaer
+                h1 Welcome to #{name}'s personal blog page! 
+
+            main 
+                -var currentHour = new Date().getHours()
+                if currentHour < 12 
+                    p Good morning, #{name}!
+                else if currentHour < 18
+                    p Good afternoon, #{name}!
+                else 
+                    p Good evening, #{name}!
+                h2 My hobbies 
+                ul 
+                 each hobby in hobbies 
+                    li=hobby
+                if hobbies.includes('coding')
+                  p i really love coding.it is one of my favourite
+            footer 
+              p thank you
